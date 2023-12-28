@@ -1,0 +1,14 @@
+.cards{
+    background-color: #1f7a8c;
+    padding: 10px;
+}
+
+.link{
+    text-decoration: none;
+    display: flex; /* Permite que o link se ajuste ao tamanho do conteúdo dentro */
+    flex-direction: column; /* Empilha o conteúdo verticalmente */
+    max-width: 700px;
+    max-height: fit-content;
+    margin-left: 300px;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.container2 {
+    display: flex;
+    justify-content: space-between; /* Colunas são espaçadas uniformemente */
+}
+
+.vcolumn{
+    flex: 1; /* Cada coluna ocupa a mesma quantidade de espaço disponível */
+    max-width: 48%; /* Define uma largura máxima para cada coluna, ajuste conforme necessário */
+
+}
+
+.vcolumn div{
+    position: relative;
+    left: 200px;
+    top: 50px
+}
+
+.pcolumn{
+    flex: 1; /* Cada coluna ocupa a mesma quantidade de espaço disponível */
+    max-width: 48%; /* Define uma largura máxima para cada coluna, ajuste conforme necessário */
+
+}
+
+.pcolumn div{
+    position: relative;
+   
+    top: 50px
+}

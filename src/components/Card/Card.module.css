@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 700px; 
+    max-height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #653111;
+    color: azure;
+    font-weight: bold;
+}
+
+.cardImage{
+    padding: 0;
+}
+
+.cardText{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    display: flex; /* Permite que o link se ajuste ao tamanho do conteúdo dentro */
+    flex-direction: column; /* Empilha o conteúdo verticalmente */
+    max-width: 700px;
+    max-height: fit-content;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

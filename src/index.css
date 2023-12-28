@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: font1;
+  src: url(../public/fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+.font1{
+  font-family: font1;
+}

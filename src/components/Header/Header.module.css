@@ -1,0 +1,33 @@
+.header{
+    background-color: #000000;
+    border-bottom: 4px solid #f48596;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
+nav a{
+    
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+nav{
+    padding-top: 4rem;
+    padding-right: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+span{
+    padding-left: 1rem;
+    padding-top: 4rem;
+    color: white;
+    font-weight: bold;
+}
